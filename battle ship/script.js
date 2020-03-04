@@ -84,7 +84,6 @@ window.onload = () => {
 
     const fire = (e) => {
         const target = e.target;
-        console.log(target)
 
         if(target.classList.contains('cell') && !target.classList.contains('miss')) {
             show.miss(target);
